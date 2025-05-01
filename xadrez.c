@@ -31,9 +31,9 @@ int main() {
  printf("**torre se movimenta**\n");
 moverTorre(5);
 
- printf("\n");
- printf("**Rainha se movimenta**\n");
-moverRainha(8);
+ printf("\n"); //separar uma atividade da outra
+ printf("**Rainha se movimenta**\n"); //para informar quem esta se movimentando
+moverRainha(8); // quantidade de casas
 
  printf("\n");
  printf("**Bispo se movimenta**\n");
